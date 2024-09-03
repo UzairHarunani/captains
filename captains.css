@@ -1,0 +1,44 @@
+.head {
+  font-family: Algerian;
+  color: black;
+}
+
+body {
+  background-color: rgb(119, 204, 70);
+  font-family: Comic Sans MS;
+}
+
+.button-p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.criteria {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.deadline {
+  color: red;
+  font-size: 20px;
+}
+
+.form-p {
+  font-size: 20px;
+}
+
+.one {
+  color: rgb(182, 20, 20);
+}
+
+.two {
+  color: rgb(255, 230, 0);
+}
+
+.three {
+  color: blue;
+}
+
+.four {
+  color: green;
+}
