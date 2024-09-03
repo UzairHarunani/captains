@@ -28,10 +28,10 @@
             emailjs.send("service_kjk1h2u", "template_l7caqcm", templateParams)
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
-                    alert('Order placed successfully!');
+                    alert('Registered successfully!');
                 }, function(error) {
                     console.error('FAILED...', error);
-                    alert('Failed to place order.');
+                    alert('Failed to register.');
                 });
 
                 document.getElementById('from_name').value = '';
