@@ -1,104 +1,18 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>SELECTION FOR HOUSE CAPATAINS</title>
-      <link rel="stylesheet" href="captains.css">
-      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-      <script type="text/javascript">
-        (function() {
-            emailjs.init("bQy3kWCmEVT7N--Sx"); // Replace with your EmailJS Public Key
-        })();
-
-        function sendEmail() {
-            // Get values from form inputs
-            const fromName = document.getElementById('from_name').value;
-            const houseContent = document.getElementById('house').value;
-            const classCont = document.getElementById('class').value;
-            const reasonContent = document.getElementById('reason').value;
-
-            const templateParams = {
-                from_name: fromName,
-                house: houseContent,
-                class: classCont,
-                reason: reasonContent
-            };
-
-            emailjs.send("service_kjk1h2u", "template_l7caqcm", templateParams)
-                .then(function(response) {
-                    console.log('SUCCESS!', response.status, response.text);
-                    alert('Registered successfully!');
-                }, function(error) {
-                    console.error('FAILED...', error);
-                    alert('Failed to register.');
-                });
-
-                document.getElementById('from_name').value = '';
-                document.getElementById('house').value = '';
-                document.getElementById('class').value = '';
-                document.getElementById('reason').value = '';
+      <title>SELECTION FOR HOUSE CAPTAINS</title>
+      <style>
+        h1 {
+          color: red;
+          font-weight: bold;
+          font-size: 50px;
+          font-family: Algerian;
         }
-    </script>
+      </style>
     </head>
     <body>
-      <h1 class="head" align="center"><img src="akes_logo.png" style="position: relative; top: 18px;"><br><br><u>SELECTION FOR AKPS HOUSE CAPTAINS</u></h1>
-
-      <h2>We are seeking passionate and dedicated House Captains to lead our School House Competition this year.<br>Candidates must be from Grade 6 and meet the following criteria:</h2>
-
-      <ul>
-        <li class="criteria"><b class="one">Leadership Qualities:</b> Ability to motivate and inspire their peers, take initiative. They should be role models, showcasing positive behavior, responsibility, and decision-making.</li>
-        <li class="criteria"><b class="two">Academic and Behavioral Standards: </b>Good academic behavior. Consistent attendance, a positive attitude toward learning, and following school rules.</li>
-        <li class="criteria"><b class="three">Communication and Interpersonal Skills: </b>Interact effectively with students, teachers, and the school community.</li>
-        <li class="criteria"><b class="four">Commitment to House Activities: </b>Participating in and promoting house events, activities, and competitions. They must be willing to dedicate time and effort to planning and organizing activities.</li>
-      </ul>
-
-      <p class="form-p"><b>If you would like to be a house captain please fill in the form below and submit it</b></p>
-
-      <form onsubmit="sendEmail(); return false;">  <!-- Use onsubmit to prevent page refresh -->
-
-    <table>
-     <tr>
-      <td><label for="from_name" class="name">Full Name:</label></td>
-      <td><input type="text" id="from_name" name="from_name" required></td>
-     </tr>
-     <tr>
-      <td><label for="house" class="name">Your House: </label></td>
-      <td>
-      <select id="house" style="width: 100%;" required>
-        <option value="0">Please select a house</option>
-        <option value="Simba">Simba</option>
-        <option value="Kifaru">Kifaru</option>
-        <option value="Tembo">Tembo</option>
-        <option value="Twiga">Twiga</option>
-      </select>
-    </td>
-     </tr>
-     <tr>
-      <td><label for="class" class="name">Class: </label></td>
-      <td>
-        <select id="class" style="width: 100%;" required>
-          <option value="0">Please select a class</option>
-          <option value="6A">6A</option>
-          <option value="6K">6K</option>
-          <option value="6P">6P</option>
-          <option value="6S">6S</option>
-        </select>
-      </td>
-     </tr>
-     <tr>
-      <td><label for="reason" class="name">Reasons to be part of our team: </label></td>
-      <td><textarea id="reason" name="reason" rows="5" style="width: 100%;" required></textarea><br>
-        <p align="center" class="button-p"><button type="submit" class="submit-button">Submit</button></p>
-      </td>
-     </tr>
-    </table>
-      </form>
-      <p class="deadline"><b>Please, fill this form by 13th of September 2024.</b></p>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1 align="center">SORRY, REGISTRATION DEADLINE HAS PAST</h1>
     </body>
   </html>
-
-  
-  
-  
-  
